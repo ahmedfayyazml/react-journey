@@ -1,9 +1,9 @@
 const App = () => {
   return (
-    <div>
-        <h1>HEllO</h1>
-        <h3>WORLD</h3>
-    </div>
+    <>
+        <h1>HELLO WORLD</h1>
+        <h3>SEXY BOY</h3>
+    </>
   )
 }
 
