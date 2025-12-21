@@ -9,3 +9,15 @@ body{
   height: 100%;
   width: 100%;
 }
+h1{
+  background-color: gainsboro;
+  width: fit-content;
+  font-size: 100px;
+  padding: 10px 70px;
+  margin: 20px;
+}
+button
+{
+  padding: 10px 20px;
+  margin: 20px;
+}
