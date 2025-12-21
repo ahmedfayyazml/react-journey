@@ -11,7 +11,10 @@ const App = () => {
         <div>
             <h1>Hello world</h1>
             <button onMouseEnter={mouseEntered} onDoubleClick={btnClicked}> FUCK You</button>
-            <input type={'text'} placeholder={'Enter your name'}/>
+            <input onChange={function(elem)
+            {
+                console.log(elem.target.value)
+            }} type={'text'} placeholder={'Enter your name'}/>
         </div>
     )
 }
