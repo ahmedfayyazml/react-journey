@@ -7,6 +7,7 @@ const App = () => {
     useEffect(() => {
         console.log('render');
     },[num]);
+
     return (
         <div>
             <h1>{num}</h1>
