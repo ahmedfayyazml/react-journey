@@ -2,11 +2,12 @@ import React, {useState} from 'react'
 import axios from 'axios'
 const App = () => {
 
-    const [apiKey, setApiKey] = useState("https://picsum.photos/v2/list?page=2&limit=100")
+    const [data, setData] = useState([])
+    const [apiKey, setApiKey] = useState("https://picsum.photos/v2/list?page=2")
     const getData = async ()=>
     {
         const response = await  axios.get(apiKey)
-        const data = await  response.data
+        setData(response.data)
         console.log(data)
     }
     return (
